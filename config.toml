@@ -1,4 +1,4 @@
-baseURL = 'https://www.gibts-doch-garnicht.de/'
+baseURL = 'https://gitbs-doch-garnicht.netlify.app/'
 languageCode = 'de-DE'
 title = 'Gar nicht wird gar nicht zusammengeschrieben'
 theme = "terminal"
