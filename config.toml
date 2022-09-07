@@ -1,4 +1,4 @@
-baseURL = 'www.gibts-doch-garnicht.de/'
+baseURL = 'https://www.gibts-doch-garnicht.de/'
 languageCode = 'de-DE'
 title = 'Gar nicht wird gar nicht zusammengeschrieben'
 theme = "terminal"
