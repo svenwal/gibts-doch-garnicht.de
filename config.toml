@@ -3,7 +3,7 @@ languageCode = 'de-DE'
 title = 'Gar nicht wird gar nicht zusammengeschrieben'
 theme = "terminal"
 
-paginate = 5
+paginate = 8
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -11,7 +11,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -20,7 +20,7 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
@@ -35,7 +35,7 @@ paginate = 5
   showLastUpdated = false
 
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  favicon = "favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
@@ -44,7 +44,7 @@ paginate = 5
   # oneHeadingSize = true # default
 
   # whether to show a page's estimated reading time
-  # readingTime = false # default
+  readingTime = true
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
@@ -59,24 +59,24 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
+  creator = "Sven Walther"
   site = ""
 
 
   [languages.en]
     languageName = "English"
     title = "Gibt's doch gar nicht"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    subtitle = "Gar nicht wird gar nicht zusammengeschrieben"
+    owner = "Sven Walther"
     keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    copyright = "Sven Walther"
+    menuMore = "Mehr"
+    readMore = "weiterlesen ..."
+    readOtherPosts = "Andere Beiträge lesen"
+    newerPosts = "Neuere Beiträge"
+    olderPosts = "Ältere Beiträge"
+    missingContentMessage = "Seite nicht gefunden..."
+    missingBackButtonLabel = "Zur Startseite"
 
     [languages.en.params.logo]
       logoText = "Gibt's doch gar nicht"
