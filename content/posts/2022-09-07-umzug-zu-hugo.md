@@ -13,4 +13,4 @@ Also nach einigen anderen Seiten ist nun auch dieses Blog vom schwergewichtigen 
 
 Noch besser: Das läuft alles in einer automatisierten Pipeline - ich habe alle Inhalte in [meinem GitHub-Repository](https://github.com/svenwal/gibts-doch-garnicht.de) und immer, wenn ich da eine neue Version hineinspeichere, wird automatisch die Webseite neu zusammengesetzt und mittels [Netlivy](https://www.netlify.com/) direkt veröffentlicht.
 
-Die Migration war übrigens viel, viel einfacher als gedacht einmal mit [Wordpress to Jeykll Exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter/) exortiert und dann direkt mittels [hugo import jekyll](https://gohugo.io/commands/hugo_import_jekyll/) hier eingespielt.
+Die Migration war übrigens viel, viel einfacher als gedacht: einmal mit [Wordpress to Jeykll Exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter/) exportiert und dann direkt mittels [hugo import jekyll](https://gohugo.io/commands/hugo_import_jekyll/) hier eingespielt.
