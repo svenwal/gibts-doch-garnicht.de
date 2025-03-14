@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aufreger on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/aufreger/</link>
+    <description>Recent content in Aufreger on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Thu, 18 May 2017 10:04:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/aufreger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AirPods #onlyApple</title>
+      <link>http://localhost:1313/airpods-onlyapple/</link>
+      <pubDate>Thu, 18 May 2017 10:04:40 +0000</pubDate>
+      <guid>http://localhost:1313/airpods-onlyapple/</guid>
+      <description>&lt;p&gt;Wenn ich mir meine letzten (seltenen) Einträge hier so anschaue, dann könnte man fast meinen, Apple ist für mich bereits ein No-Go.&lt;/p&gt;&#xA;&lt;p&gt;Ist es aber nicht – mein nächstes Dienstnotebook wird ein MacBook Pro sein, die Versorgung mit iPhones und iPads im Haushalt ist mehr als ausreichend und die bis vor kurzem tägliche Arbeit an einem Windows 10 Rechner erinnerte einen immer wieder, wie viel schlimmer es sein könnte…&lt;/p&gt;&#xA;&lt;p&gt;Und so begab es sich, dass ich für einen Geburtstag in der Familie &lt;a href=&#34;https://www.apple.com/de/airpods/&#34;&gt;AirPods&lt;/a&gt; bestellte. Soll hier gar nicht über die (katastrophale) Bestellsituation gehen, welche am Ende noch Klimmzüge erforderte, um das Paket rechtzeitig in der Hand halten zu können. Nein, einfach nur über die Erfahrung des Auspackens und der ersten Benutzung.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Da passt noch mehr drauf&amp;#8230;</title>
+      <link>http://localhost:1313/da-passt-noch-mehr-drauf/</link>
+      <pubDate>Sat, 12 Mar 2016 13:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/da-passt-noch-mehr-drauf/</guid>
+      <description>&lt;p&gt;Gestern war so einer der Tage, wo sich das persönliche Karma mal dachte: hey, lass mal Spaß haben. Also ging folgerichtig unter anderem unser Kühlschrank kaputt (recht alt, aber trotzdem blöd, wenn man auf einmal die Tür Dank gebrochenem Scharnier in der Hand hat). Nach kurzen Reparaturversuchen (wie viele Patente für Scharniere gibt es eigentlich und werden die Dinger aus Gold geschmiedet!?) die schnelle Entscheidung, dass ein neues Gerät hermüsste. Spart ja dann auch ordentlich Strom, wie einem der große A++ Sticker gleich vermittelt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fauler Apfel</title>
+      <link>http://localhost:1313/fauler-apfel/</link>
+      <pubDate>Mon, 28 Sep 2015 08:08:38 +0000</pubDate>
+      <guid>http://localhost:1313/fauler-apfel/</guid>
+      <description>&lt;p&gt;Es ist kein Geheimnis, dass ich schon recht lange alle meine interne IT auf Apple-Produkte umgestellt habe. Aber in den letzten sagen wir 18 Monaten gab es einige Momente, in welchen ich daran zweifelte. So waren sowohl Mac OS 10.10 Yosemite und iOS 8 recht &lt;a href=&#34;https://www.gibts-doch-garnicht.de/yosemite/&#34;&gt;katastrophal&lt;/a&gt; für mich (wer braucht schon WLAN?) und nur ein eigentlich nicht geplanter früher Sprung auf 10.11 El Capitan und iOS 9 ließ mich überhaupt meine Geräte weiter so benutzen, wie es gedacht war.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ausschalter</title>
+      <link>http://localhost:1313/ausschalter/</link>
+      <pubDate>Fri, 25 Sep 2015 21:00:47 +0000</pubDate>
+      <guid>http://localhost:1313/ausschalter/</guid>
+      <description>&lt;p&gt;Heute wollte ich mal wieder einen Podcast aufnehmen und direkt vor Aufnahmebeginn brach mein Netzwerk zusammen. Alle Geräte meckerten auf einmal, dass die IP-Adressen schon belegt wären, holten sich neue und die war dann wieder belegt. Panik kroch in mir hoch und die Aufnahme fiel direkt ins Wasser.&lt;/p&gt;&#xA;&lt;p&gt;Hilft ja nichts, Fehlersuche musste eingeleitet werden. Alle Komponenten mal durchbooten (FritzBox, 2* Raspberry Pi, 2* AirPort Extreme, 2* WLAN2LAN Bridge usw.). Keine Besserung. Notebook direkt am LAN-Port der FritzBox: keine Besserung – bis dort alle anderen Geräte bis auf einen Raspberry Pi (mein DHCP und DNS Server) abgesteckt waren -&amp;gt; Netz geht.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yosemite&amp;#8230;</title>
+      <link>http://localhost:1313/yosemite/</link>
+      <pubDate>Thu, 14 May 2015 14:31:31 +0000</pubDate>
+      <guid>http://localhost:1313/yosemite/</guid>
+      <description>&lt;p&gt;Yosemite ist einer von den Orten, zu welchem mich mein Drang in die Ferne sicher noch einmal führen wird. Ich mag ja raue und weite Natur und auf meiner Liste der zu bereisenden Ziele ist es recht weit oben.&lt;/p&gt;&#xA;&lt;p&gt;Aber wie sich einige wahrscheinlich eh schon gedacht haben, geht es um etwas anderes – nämlich Mac OS X 10.10 mit dem Namen Yosemite.&lt;/p&gt;&#xA;&lt;p&gt;Ich hatte es seit der ersten Beta auf meinem MacBook Pro und im Gegensatz zu vielen hat mich das Design nicht grundsätzlich abgeschreckt (über unnötige Transparenzen ärgere ich mich allerdings noch immer jeden Tag). Nun gut, ich habe meine Macs weder aus Prestigegründen noch wegen des Designs (letzteres schon etwas – die Benutzeroberfläche sollte nicht hässlich sein, aber bis auf Windows XP trifft das für meinen Geschmack auf die meisten zu). Nein, ich habe meine Macs wegen dem soliden UNIX-Unterbau und dem „it just works“. Ich habe das immer verteidigt und auch sonst das meiste vom Apfelladen im Haushalt in Betrieb.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Noch mehr Spaß mit Exim4 und GnuTLS unter Debian</title>
+      <link>http://localhost:1313/noch-mehr-spass-mit-exim4-und-gnutls-unter-debian/</link>
+      <pubDate>Sun, 25 Jan 2015 21:55:58 +0000</pubDate>
+      <guid>http://localhost:1313/noch-mehr-spass-mit-exim4-und-gnutls-unter-debian/</guid>
+      <description>&lt;p&gt;Ach was eine Freude – ich hatte am Wochenende viel Spaß dabei, ein eigentlich ganz nettes Windows Phone zu konfigurieren. Dass es bei verstelltem Datum bei allen Updates und Co. durchdreht sei hier mal nur erwähnt, aber das eingebaute Mailprogramm hat mir noch mehr graue Haare beschert.&lt;/p&gt;&#xA;&lt;p&gt;Nachdem alles richtig eingestellt war (tausendmal gegengecheckt mit Thunderbird) wollte es ums Verrecken nicht korrekt senden – die Meldung „relay not permitted“ flutete meine (seit Jahren stabile) Exim4-Konfiguration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SimCity 5 auf dem Mac &amp;#8211; eine Katastrophe</title>
+      <link>http://localhost:1313/simcity-5-auf-dem-mac-eine-katastrophe/</link>
+      <pubDate>Tue, 17 Sep 2013 16:30:51 +0000</pubDate>
+      <guid>http://localhost:1313/simcity-5-auf-dem-mac-eine-katastrophe/</guid>
+      <description>&lt;p&gt;Als SimCity 5 für Windows rauskam, hat sich EA / Origin nicht gerade mit Ruhm bekleckert (instabil, Online-Zwang, …) und sich viele Fans vergrault.&lt;/p&gt;&#xA;&lt;p&gt;Ich als Mac-Nutzer schaute mir das an, musste aber eh noch eine ganze Weile warten, bis man sich dort erbarmte, eine Mac-Version zur Verfügung zu stellen.&lt;/p&gt;&#xA;&lt;p&gt;Als es dann soweit war, habe ich direkt zugegriffen und im Online-Store die Deluxe-Edition gekauft und direkt mit Paypal bezahlt. Im Gegensatz zu einigen anderen kriegte ich dann relativ unverzüglich meinen Download-Link und konnte Origin runterladen. Origin? Hatte ich nicht SimCity gekauft? Nun, bei EA zwingt man uns dazu, mittels deren Software Origin das Spiel selber zu laden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>E-Mail Made in Germany und der Standard-Mailserver von Debian (Exim)</title>
+      <link>http://localhost:1313/e-mail-made-in-germany-und-der-standard-mailserver-von-debian-exim/</link>
+      <pubDate>Sun, 01 Sep 2013 19:50:53 +0000</pubDate>
+      <guid>http://localhost:1313/e-mail-made-in-germany-und-der-standard-mailserver-von-debian-exim/</guid>
+      <description>&lt;p&gt;Na wunderbar, da haben also &lt;a href=&#34;http://www.e-mail-made-in-germany.de/&#34;&gt;unsere großen drei E-Mail-Provider GMX, web.de und Telekom endlich mal den Konfigurationsschalter gefunden&lt;/a&gt;, um die Verbindung (&lt;a href=&#34;https://netzpolitik.org/2013/e-mail-made-in-germany-deutsche-telekom-web-de-und-gmx-machen-ssl-an-und-verkaufen-das-als-sicher/&#34;&gt;und auch nur die, nicht etwa die Mails selber…)&lt;/a&gt; der Mailserver zu verschlüsseln – und dann funktioniert das Ganze wohl bei vielen Standard-Debian-Mailservern nicht.&lt;/p&gt;&#xA;&lt;p&gt;Der Grund scheint zu sein, dass Debian &lt;a href=&#34;https://people.gnome.org/~markmc/openssl-and-the-gpl.html&#34;&gt;wegen der Lizenz (GPL)&lt;/a&gt; nicht &lt;a href=&#34;https://www.openssl.org/&#34;&gt;OpenSSL&lt;/a&gt; sondern &lt;a href=&#34;http://www.gnutls.org/&#34;&gt;GnuTLS&lt;/a&gt; einsetzt – und dann bekommt man als Betreiber eines solchen Mailservers dann solche Einträge im Logfile:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Volkswagen RCD 510 &amp;#8211; ein Erfahrungsbericht</title>
+      <link>http://localhost:1313/volkswagen-rcd-510-ein-erfahrungsbericht/</link>
+      <pubDate>Wed, 21 Aug 2013 19:24:59 +0000</pubDate>
+      <guid>http://localhost:1313/volkswagen-rcd-510-ein-erfahrungsbericht/</guid>
+      <description>&lt;p&gt;Es begab sich im Herbst 2011, dass die Bestellung eines neuen Wagens aus dem Volkswagen-Konzern angegangen werden konnte. Ausgestattet mit dem einen oder anderen Euro legte ich viel Wert auf den Innenraum, da dies ja der Platz ist, in dem ich einen nicht unerheblichen Teil meiner Arbeitszeit (ca. 75.000km im Jahr) verbringe.&lt;/p&gt;&#xA;&lt;p&gt;Also wurde für den Komfort alles gekauft, was in das Budget passte, und das war eben auch &lt;a href=&#34;http://www.volkswagen-zubehoer-shop.de/shop/product_info.php?info=p3725_Volkswagen-Original-Radio---RCD-510----Rueckfahrkamera-tauglich.html&amp;amp;XTCsid=314ae86907f2c00bb1e64f7ab7a14c20&#34;&gt;das RCD 510 von Volkswagen&lt;/a&gt; inklusive Rückfahrkamera und allen, was es unter dem Stichwort „Freisprechfunktion“ so gab. Zusätzlich wurde noch das teurere 10-Boxen-System dazugekauft – man wollte es ja auch genießen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ist Fever eine Alternative für Google Reader?</title>
+      <link>http://localhost:1313/ist-fever-eine-alternative-fur-google-reader/</link>
+      <pubDate>Thu, 14 Mar 2013 07:35:53 +0000</pubDate>
+      <guid>http://localhost:1313/ist-fever-eine-alternative-fur-google-reader/</guid>
+      <description>&lt;p&gt;Nun ist also &lt;a href=&#34;http://stadt-bremerhaven.de/google-stellt-den-google-reader-und-weitere-dienste-ein/&#34;&gt;Google Reader am Ende&lt;/a&gt; – Google zieht den Stecker zum 1. Juli 2013.&lt;/p&gt;&#xA;&lt;p&gt;Danke Google, erinnert Ihr Euch nach „Don’t be Evil“? Muss Jahrhunderte her sein…&lt;/p&gt;&#xA;&lt;p&gt;Wie auch immer – ich selber habe schon vor ein paar Monaten meinen persönlichen Stecker gezogen und habe mir eine &lt;a href=&#34;http://www.feedafever.com/&#34;&gt;Fever-Installation&lt;/a&gt; zugelegt, in welcher meine gut 100 Feeds seitdem fein leben und gedeihen.&lt;/p&gt;&#xA;&lt;p&gt;Ist Fever nun DIE ALTERNATIVE? Nun, hat alles seine Vor- und Nachteile.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kleiner Ausflug in die Windows-Hölle</title>
+      <link>http://localhost:1313/kleiner-ausflug-in-die-windows-holle/</link>
+      <pubDate>Sun, 25 Nov 2012 14:01:40 +0000</pubDate>
+      <guid>http://localhost:1313/kleiner-ausflug-in-die-windows-holle/</guid>
+      <description>&lt;p&gt;So kann man sich einen Sonntag auch versauen – man kaufe sich auf seinem Entwicklungs-Windows-XP-Rechner Windows 8 Pro als Update. Das Setup läuft durch, ohne wie sonst überall zu lesen die Erstellung einer DVD oder eines Boot-Sticks anzubieten. Na toll.&lt;/p&gt;&#xA;&lt;p&gt;Rechner startet also neu und fährt nicht mehr hoch (sondern schwarzer Bildschirm mit lustigen Zahlen). Ist also hinüber. Klasse.&lt;/p&gt;&#xA;&lt;p&gt;Also buddelt man die alte XP Install DVD raus und installiert – und dann geht die alte XP-Seriennummer nicht mehr (jene, die auf dem Rechner klebt) und auch eine andere noch vorhandene geht nicht mehr.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>M-Net: Viel Licht, aber auch viel Schatten</title>
+      <link>http://localhost:1313/m-net-viel-licht-aber-auch-viel-schatten/</link>
+      <pubDate>Sat, 22 Sep 2012 12:15:33 +0000</pubDate>
+      <guid>http://localhost:1313/m-net-viel-licht-aber-auch-viel-schatten/</guid>
+      <description>&lt;p&gt;Nachdem die Telekom in bekannt chaotischer Manier meinen Umzug im letzten Mai versemmelt hatte, war der Weg frei, das Internet in Zukunft über M-Net zu beziehen.&lt;/p&gt;&#xA;&lt;p&gt;Es begann mit Licht: Nette und kompetente Hotline, nachvollziehbare und passende Aussagen.&lt;/p&gt;&#xA;&lt;p&gt;Dann kamen ein paar Wolken: Eine Auftragsbestätigung bekam ich nie (weder an die alte Adresse, noch an die neue – Nachsendeantrag ist aktiv). Dummerweise stand wohl in dieser, wann der Techniker zum schalten kommen würde. Nun gut, wussten wir also nicht und fanden dann den Zettel, das niemand antreffbar gewesen sei. Klasse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>REWE gewinnt den Zonk für die Online-Tauschbörse</title>
+      <link>http://localhost:1313/rewe-gewinnt-den-zonk-fur-die-online-tauschborse/</link>
+      <pubDate>Sat, 15 Sep 2012 11:46:36 +0000</pubDate>
+      <guid>http://localhost:1313/rewe-gewinnt-den-zonk-fur-die-online-tauschborse/</guid>
+      <description>&lt;p&gt;Ich finde es unfassbar, aber ganz offensichtlich gibt es noch immer wildgewordene Marketing-Agenturen, die auch in 2012 noch meinen, dass man mit Flash irgendwas machen sollte.&lt;/p&gt;&#xA;&lt;p&gt;So z. B. &lt;a href=&#34;http://www.rewe.de/besser-einkaufen/aktionen/unsere-erde/kampagne/tauschboerse.html&#34;&gt;die aktuelle Online-Tauschbörse für Sticker bei REWE&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Erste Konsequenz: mit dem Hauptgerät meiner Frau – einem iPad – geht es schon mal gar nicht.&lt;/p&gt;&#xA;&lt;p&gt;Zweite Konsequenz: auch auf meinem alten iMac kriegt man erstmal die (falsche) Warnung, dass angeblich die Tastatur nicht gehen würde. Tut sie aber.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agility ist kein Sport!</title>
+      <link>http://localhost:1313/agility-ist-kein-sport/</link>
+      <pubDate>Fri, 13 Jul 2012 18:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/agility-ist-kein-sport/</guid>
+      <description>&lt;p&gt;OK, für die Leser, die mit Agility gar nicht anfangen können: Das ist grob gesagt ein Hindernisparcours, den ein Hund unter Anleitung des Hundeführers möglichst schnell und fehlerfrei bewältigen soll. Mehr Details gibt es z. B. &lt;a href=&#34;http://de.wikipedia.org/wiki/Agility&#34;&gt;hier bei Wikipedia&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Nun wird jeder, der wie ich Agility betreibt oder sich nur &lt;a href=&#34;http://www.google.de/#q=agility&amp;#43;wm&amp;amp;hl=de&amp;amp;prmd=imvns&amp;amp;source=lnms&amp;amp;tbm=vid&amp;amp;sa=X&amp;amp;ei=kEoAUM-hM83DtAah9aG6Bg&amp;amp;ved=0CDgQ_AUoAw&amp;amp;bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&amp;amp;fp=e8b83ff47a6c9ad4&amp;amp;biw=1280&amp;amp;bih=629&#34;&gt;ein paar Videos&lt;/a&gt; dazu anschaut, sicherlich den Titel diese Eintrages komisch anschauen und fragen, wie ich auch die Idee komme, dass es kein Sport sei.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Wed, 07 Sep 2022 10:17:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/categories/blog/</link>
+      <pubDate>Wed, 07 Sep 2022 10:17:04 +0000</pubDate>
+      <guid>http://localhost:1313/categories/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple</title>
+      <link>http://localhost:1313/categories/apple/</link>
+      <pubDate>Thu, 18 May 2017 10:04:40 +0000</pubDate>
+      <guid>http://localhost:1313/categories/apple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aufreger</title>
+      <link>http://localhost:1313/categories/aufreger/</link>
+      <pubDate>Thu, 18 May 2017 10:04:40 +0000</pubDate>
+      <guid>http://localhost:1313/categories/aufreger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>http://localhost:1313/categories/mac/</link>
+      <pubDate>Tue, 22 Nov 2016 08:53:56 +0000</pubDate>
+      <guid>http://localhost:1313/categories/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generelles</title>
+      <link>http://localhost:1313/categories/generelles/</link>
+      <pubDate>Sat, 12 Mar 2016 13:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/generelles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kundenverarsche</title>
+      <link>http://localhost:1313/categories/kundenverarsche/</link>
+      <pubDate>Sat, 12 Mar 2016 13:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/kundenverarsche/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dansguardian</title>
+      <link>http://localhost:1313/categories/dansguardian/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dansguardian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debian</title>
+      <link>http://localhost:1313/categories/debian/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/debian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netzwerk</title>
+      <link>http://localhost:1313/categories/netzwerk/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/netzwerk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://localhost:1313/categories/raspberry-pi/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dodge</title>
+      <link>http://localhost:1313/categories/dodge/</link>
+      <pubDate>Sat, 27 Feb 2016 10:33:34 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dodge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Durango</title>
+      <link>http://localhost:1313/categories/durango/</link>
+      <pubDate>Sat, 27 Feb 2016 10:33:34 +0000</pubDate>
+      <guid>http://localhost:1313/categories/durango/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPv6</title>
+      <link>http://localhost:1313/categories/ipv6/</link>
+      <pubDate>Sun, 11 Oct 2015 11:45:02 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ipv6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>http://localhost:1313/categories/nginx/</link>
+      <pubDate>Sun, 11 Oct 2015 11:05:01 +0000</pubDate>
+      <guid>http://localhost:1313/categories/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSL</title>
+      <link>http://localhost:1313/categories/ssl/</link>
+      <pubDate>Sun, 11 Oct 2015 11:05:01 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/categories/windows/</link>
+      <pubDate>Thu, 14 May 2015 14:31:31 +0000</pubDate>
+      <guid>http://localhost:1313/categories/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crypto</title>
+      <link>http://localhost:1313/categories/crypto/</link>
+      <pubDate>Sun, 25 Jan 2015 21:55:58 +0000</pubDate>
+      <guid>http://localhost:1313/categories/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podcasts</title>
+      <link>http://localhost:1313/categories/podcasts/</link>
+      <pubDate>Sat, 01 Feb 2014 14:06:37 +0000</pubDate>
+      <guid>http://localhost:1313/categories/podcasts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geocaching</title>
+      <link>http://localhost:1313/categories/geocaching/</link>
+      <pubDate>Mon, 06 Jan 2014 16:15:10 +0000</pubDate>
+      <guid>http://localhost:1313/categories/geocaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hunde</title>
+      <link>http://localhost:1313/categories/hunde/</link>
+      <pubDate>Mon, 06 Jan 2014 16:15:10 +0000</pubDate>
+      <guid>http://localhost:1313/categories/hunde/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Film</title>
+      <link>http://localhost:1313/categories/film/</link>
+      <pubDate>Sat, 26 Oct 2013 17:03:38 +0000</pubDate>
+      <guid>http://localhost:1313/categories/film/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kino</title>
+      <link>http://localhost:1313/categories/kino/</link>
+      <pubDate>Sat, 26 Oct 2013 17:03:38 +0000</pubDate>
+      <guid>http://localhost:1313/categories/kino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogosphäre</title>
+      <link>http://localhost:1313/categories/blogosph%C3%A4re/</link>
+      <pubDate>Wed, 19 Dec 2012 06:37:08 +0000</pubDate>
+      <guid>http://localhost:1313/categories/blogosph%C3%A4re/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agility</title>
+      <link>http://localhost:1313/categories/agility/</link>
+      <pubDate>Fri, 13 Jul 2012 18:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/categories/agility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GEMA</title>
+      <link>http://localhost:1313/categories/gema/</link>
+      <pubDate>Fri, 13 Jul 2012 18:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/categories/gema/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HD&#43;</title>
+      <link>http://localhost:1313/categories/hd&#43;/</link>
+      <pubDate>Wed, 02 May 2012 21:21:20 +0000</pubDate>
+      <guid>http://localhost:1313/categories/hd&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TV</title>
+      <link>http://localhost:1313/categories/tv/</link>
+      <pubDate>Wed, 02 May 2012 21:21:20 +0000</pubDate>
+      <guid>http://localhost:1313/categories/tv/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

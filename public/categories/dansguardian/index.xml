@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dansguardian on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/dansguardian/</link>
+    <description>Recent content in Dansguardian on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Sat, 27 Feb 2016 11:49:41 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/dansguardian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kindersicherung für das Internet mit dem Raspberry Pi</title>
+      <link>http://localhost:1313/kindersicherung-fuer-das-internet-mit-dem-raspberry-pi/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/kindersicherung-fuer-das-internet-mit-dem-raspberry-pi/</guid>
+      <description>&lt;p&gt;Jeder, der Kinder hat, sollte sich ab einem bestimmten Alter ernsthaft Gedanken machen, wie man diese vor den negativen Seiten des Internets so gut wie möglich schützen kann, ohne gleich das moderne Teufelszeug komplett zu verbieten. Dazu aber vorab: es muss einem klar sein, dass man es am Ende nur erschweren kann. Jedes halbwegs pfiffige Kind findet Wege, um auf das Netz zuzugreifen – und sei es nur, in dem es einfach zu einem/r Freund(in) geht, wo das WLAN offen ist.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

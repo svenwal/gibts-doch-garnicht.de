@@ -1,9 +1,15 @@
 baseURL = 'https://www.gibts-doch-garnicht.de/'
 languageCode = 'de-DE'
 title = 'Gar nicht wird gar nicht zusammengeschrieben'
-theme = "terminal"
+theme = ["github.com/panr/hugo-theme-terminal/v4"]
 
-paginate = 8
+[pagination]
+  pagerSize = 8
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   # dir name of your main content (default is `content/posts`).

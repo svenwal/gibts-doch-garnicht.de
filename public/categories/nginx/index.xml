@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/nginx/</link>
+    <description>Recent content in Nginx on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Sun, 11 Oct 2015 11:05:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Von Apache zu nginx mit IPv6 und SSL</title>
+      <link>http://localhost:1313/von-apache-zu-nginx-mit-ipv6-und-ssl/</link>
+      <pubDate>Sun, 11 Oct 2015 11:05:01 +0000</pubDate>
+      <guid>http://localhost:1313/von-apache-zu-nginx-mit-ipv6-und-ssl/</guid>
+      <description>&lt;p&gt;Seit ewigen Zeiten (irgendwas größer 15 Jahre) laufen alle meine Webseiten auf &lt;a href=&#34;https://httpd.apache.org/&#34;&gt;Apache&lt;/a&gt;. Zu seiner Zeit war Apache die einzige wirkliche Wahl und die Gewohnheit siegt. Mit &lt;a href=&#34;https://www.debian.org/&#34;&gt;Debian 8&lt;/a&gt; steht nun für mich ein Update auf der ToDo-Liste, welches einige Änderungen an der Konfiguration nach sich ziehen würde (es ist eine lang gewachsene Konfiguration) und so fand ich, es wäre mal wieder Zeit etwas neues zu lernen.&lt;/p&gt;&#xA;&lt;p&gt;Daher startete ich ein Migrationsprojekt mit folgenden Zielen:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

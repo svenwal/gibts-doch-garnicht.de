@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Tunnel in die Freiheit :: Gibt&#39;s doch gar nicht</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ausgehend vom letzten Eintrag für meine Hotel/Camping-WLAN-Konfiguration kam auch eine Frage zum Thema „wie tunnele ich meine Netzverkehr durch die Firewall?“. Und da verwende ich seit Jahren ein schon so ziemlich überall erfolgreich verwendetes Setup, welches ich nun mal beschreiben möchte.
+Vorab: Etwas technisch Know-how sollte vorhanden sein, denn die verwendeten Technologien sind nicht wirklich immer einfaches Plug&amp;Play.
+Die Grundidee ist wie folgt: Auf einem Server (Rootserver oder vServer) installieren wir SSH und einen Proxy und schicken den Datenverkehr durch den SSH-Zugang zum Proxy, der es dann weiter ins Internet schickt. Der Gag dabei: SSH läuft nicht (bzw. nicht nur) auf Port 22, sondern auf Port 443, welcher normalerweise für HTTPS verwendet wird und daher von Firewalls nahezu immer erreichbar ist.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/tunnel-in-die-freiheit/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.15870410d15d02abd22fb5ef00996f65a00d04b3a7435e9f83831c7c2298de88.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="sven" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Tunnel in die Freiheit">
+<meta property="og:description" content="Ausgehend vom letzten Eintrag für meine Hotel/Camping-WLAN-Konfiguration kam auch eine Frage zum Thema „wie tunnele ich meine Netzverkehr durch die Firewall?“. Und da verwende ich seit Jahren ein schon so ziemlich überall erfolgreich verwendetes Setup, welches ich nun mal beschreiben möchte.
+Vorab: Etwas technisch Know-how sollte vorhanden sein, denn die verwendeten Technologien sind nicht wirklich immer einfaches Plug&amp;Play.
+Die Grundidee ist wie folgt: Auf einem Server (Rootserver oder vServer) installieren wir SSH und einen Proxy und schicken den Datenverkehr durch den SSH-Zugang zum Proxy, der es dann weiter ins Internet schickt. Der Gag dabei: SSH läuft nicht (bzw. nicht nur) auf Port 22, sondern auf Port 443, welcher normalerweise für HTTPS verwendet wird und daher von Firewalls nahezu immer erreichbar ist.
+" />
+<meta property="og:url" content="http://localhost:1313/tunnel-in-die-freiheit/" />
+<meta property="og:site_name" content="Gibt&#39;s doch gar nicht" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="Debian" />
+
+
+  <meta property="article:published_time" content="2014-04-08 21:59:52 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container full">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Gibt&#39;s doch gar nicht
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/gar-nicht-oder-garnicht">Gar nicht oder garnicht</a></li>
+        
+      
+        
+          <li><a href="/impressum">Impressum</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/gar-nicht-oder-garnicht" >Gar nicht oder garnicht</a></li>
+        
+      
+        
+          <li><a href="/impressum" >Impressum</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/tunnel-in-die-freiheit/">Tunnel in die Freiheit</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2014-04-08</time><span class="post-author">sven</span><span class="post-reading-time">3 min read (549 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Ausgehend vom <a href="https://www.gibts-doch-garnicht.de/camping-wlan-hotel-internet-teilen/" title="Camping- / WLAN- / Hotel-Internet teilen">letzten Eintrag für meine Hotel/Camping-WLAN-Konfiguration</a> kam auch eine Frage zum Thema „wie tunnele ich meine Netzverkehr durch die Firewall?“. Und da verwende ich seit Jahren ein schon so ziemlich überall erfolgreich verwendetes Setup, welches ich nun mal beschreiben möchte.</p>
+<p><strong>Vorab</strong>: Etwas technisch Know-how sollte vorhanden sein, denn die verwendeten Technologien sind nicht wirklich immer einfaches Plug&amp;Play.</p>
+<p>Die <strong>Grundidee</strong> ist wie folgt: Auf einem Server (Rootserver oder vServer) installieren wir SSH und einen Proxy und schicken den Datenverkehr durch den SSH-Zugang zum Proxy, der es dann weiter ins Internet schickt. Der Gag dabei: SSH läuft nicht (bzw. nicht nur) auf Port 22, sondern auf Port 443, welcher normalerweise für HTTPS verwendet wird und daher von Firewalls nahezu immer erreichbar ist.</p>
+<p><strong>Benötigte Software</strong>: Wir benötigen einer Rootserver (auch als vServer klappt das) mit einem Linux als Betriebssystem (ich verwende Debian – selbstverständlich gingen auch ***BSD und ähnlich), auf welchem SSH und der Proxy-Server Squid installiert werden. Auf dem Client (also dem Rechner, von welchem wir surfen wollen) entweder einen SSH-Client oder aber Putty (was unter Windows meist die Regel sein dürfte).</p>
+<p><strong>Setup von SSH</strong>: ich gehe mal davon aus, dass der Server, welchen Ihr mietet, eh schon per SSH erreichbar ist. Das ergänzen wir nun um den Port 443, indem wir in /etc/ssh/sshd_config die Einträge für die Ports, damit dann 22 und 443 verwendet werden:</p>
+<p>Port 443<br>
+Port 22</p>
+<p>Nach einem Neustart von SSH sollte dieses nun auch über den Port 443 erreichbar sein (parallel darf dann natürlich nicht z.B. ein Webserver diesen Port nutzen wollen).</p>
+<p><strong>Proxy-Server:</strong> Als Proxy verwende ich (mehr oder weniger aus Gewohnheit) Squid. Erstmal fast im Standard installiert, allerdings mit diesem einen speziellen Eintrag:</p>
+<p>http_port 127.0.0.1:3128</p>
+<p>Soll heißen: ich will nicht, dass irgendwer von außerhalb meine Proxy missbraucht, daher lasse ich ihn nur auf der internen Netzwerkadresse laufen (127.0.0.1 ist das Loopback-Device)</p>
+<p><strong>Der Tunnel</strong>: Eine tolle Funkionen von SSH: Man kann beliebige Adressen/Ports hindurchschleifen. In diesem Beispiel machen wird folgendes: Wir melden uns vom Client mittels SSH am Server an und dabei wird der Port 3128 (der Proxy) auf dem Client als Port 13128 zur Verfügung gestellt. Das heißt dann, dass man im Webbrowser als Proxy den Server 127.0.0.1 (also lokal) mit dem Port 13128 einstellt und schon ist man über dem Weg draußen.</p>
+<p>ssh <a href="mailto:meinNutzer@meinServer.de">meinNutzer@meinServer.de</a> -p 443 -L 13128:127.0.0.1:3128</p>
+<p><strong>Allgemeine Hinweise</strong>: Ein eigener Server im Internet ist ein beliebte Angriffsquelle für Hacker, daher würde ich immer SSH so einstellen, dass es nur mit Public/Private-Key läuft und nicht per Passwort. Und außerdem sollte man den Rechner immer auf dem aktuellsten Stand haben und eine Idee haben, was das Linux eigentlich so tut.</p>
+<p><strong>Nette Ergänzungen:</strong> Im Squid kann man z. B. mittels „acl Safe_ports port 12345“ diesen für weitere Ports verwenden und so z. B. Chat-Clients über diesen laufen lassen.</p>
+<p>Und man kann im SSH-Aufruf auch mehrere Weiterleitungen einstellen und so z. B. mittels</p>
+<p>ssh <a href="mailto:meinNutzer@meinServer.de">meinNutzer@meinServer.de</a> -p 443 -L 13128:127.0.0.1:3128 -L 13993:imap.gmail.com:993</p>
+<p>den Zugriff auf seine Gmail-Mails auch durch die Firewall machen (und z. B. im Thuderbird dann als IMAP-Server 127.0.0.1 auf dem Port 13993 einstellen</p>
+<p><strong>Eins noch</strong>: Ich habe absichtlich keine Schritt-für-Schritt-Anleitungen für z. B. die Installation von Squid hier mit aufgeführt – wenn Ihr das nicht hinbekommt (ggf. mit Hilfe von Goolge), dann rate ich Euch dringend davon ab, einen eigenen Server zu betreiben…</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h"></span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/und-auf-welcher-seite-ist-der-tank/" class="button inline prev">
+        &lt; [<span class="button__text">&amp;#8230; und auf welcher Seite ist der Tank?</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/camping-wlan-hotel-internet-teilen/" class="button inline next">
+         [<span class="button__text">Camping- / WLAN- / Hotel-Internet teilen</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Sven Walther</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

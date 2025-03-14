@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kundenverarsche on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/kundenverarsche/</link>
+    <description>Recent content in Kundenverarsche on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Sat, 12 Mar 2016 13:25:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/kundenverarsche/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Da passt noch mehr drauf&amp;#8230;</title>
+      <link>http://localhost:1313/da-passt-noch-mehr-drauf/</link>
+      <pubDate>Sat, 12 Mar 2016 13:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/da-passt-noch-mehr-drauf/</guid>
+      <description>&lt;p&gt;Gestern war so einer der Tage, wo sich das persönliche Karma mal dachte: hey, lass mal Spaß haben. Also ging folgerichtig unter anderem unser Kühlschrank kaputt (recht alt, aber trotzdem blöd, wenn man auf einmal die Tür Dank gebrochenem Scharnier in der Hand hat). Nach kurzen Reparaturversuchen (wie viele Patente für Scharniere gibt es eigentlich und werden die Dinger aus Gold geschmiedet!?) die schnelle Entscheidung, dass ein neues Gerät hermüsste. Spart ja dann auch ordentlich Strom, wie einem der große A++ Sticker gleich vermittelt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>E-Mail Made in Germany und der Standard-Mailserver von Debian (Exim)</title>
+      <link>http://localhost:1313/e-mail-made-in-germany-und-der-standard-mailserver-von-debian-exim/</link>
+      <pubDate>Sun, 01 Sep 2013 19:50:53 +0000</pubDate>
+      <guid>http://localhost:1313/e-mail-made-in-germany-und-der-standard-mailserver-von-debian-exim/</guid>
+      <description>&lt;p&gt;Na wunderbar, da haben also &lt;a href=&#34;http://www.e-mail-made-in-germany.de/&#34;&gt;unsere großen drei E-Mail-Provider GMX, web.de und Telekom endlich mal den Konfigurationsschalter gefunden&lt;/a&gt;, um die Verbindung (&lt;a href=&#34;https://netzpolitik.org/2013/e-mail-made-in-germany-deutsche-telekom-web-de-und-gmx-machen-ssl-an-und-verkaufen-das-als-sicher/&#34;&gt;und auch nur die, nicht etwa die Mails selber…)&lt;/a&gt; der Mailserver zu verschlüsseln – und dann funktioniert das Ganze wohl bei vielen Standard-Debian-Mailservern nicht.&lt;/p&gt;&#xA;&lt;p&gt;Der Grund scheint zu sein, dass Debian &lt;a href=&#34;https://people.gnome.org/~markmc/openssl-and-the-gpl.html&#34;&gt;wegen der Lizenz (GPL)&lt;/a&gt; nicht &lt;a href=&#34;https://www.openssl.org/&#34;&gt;OpenSSL&lt;/a&gt; sondern &lt;a href=&#34;http://www.gnutls.org/&#34;&gt;GnuTLS&lt;/a&gt; einsetzt – und dann bekommt man als Betreiber eines solchen Mailservers dann solche Einträge im Logfile:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HDTV mit HD&#43; &amp;#8230; Ich gehe dann mal kotzen&amp;#8230;</title>
+      <link>http://localhost:1313/hdtv-mit-hd-ich-gehe-dann-mal-kotzen/</link>
+      <pubDate>Wed, 02 May 2012 21:21:20 +0000</pubDate>
+      <guid>http://localhost:1313/hdtv-mit-hd-ich-gehe-dann-mal-kotzen/</guid>
+      <description>&lt;p&gt;Das ist nun an sich kein neues Thema, aber ich hatte es bisher ausgesessen und mich mutig mit Alternativen wie &lt;a href=&#34;http://de.wikipedia.org/wiki/Telekom_Entertain&#34;&gt;Telekom Entertain&lt;/a&gt; „vergnügt“. Nun ist Entertain mit einer 16.000+ Leitung auch für den Arsch, wenn man HD zuschalten will (geht seit Neuestem), denn dann kann man genau ein Programm aufnehmen und parallel weder eine zweite Sendung schauen oder gar aufnehmen.&lt;/p&gt;&#xA;&lt;p&gt;Außerdem sind wir mitten im Umzug und wir haben dann (erstmal) wieder ein etwas „langsameres“ Internet – also kein Entertain mehr. Daher fing ich vor 3 oder 4 Wochen wieder an zu schauen, wie denn der aktuelle Stand ist und ob &lt;a href=&#34;http://de.wikipedia.org/wiki/SES_Astra&#34;&gt;Astra&lt;/a&gt; und die Privatsender den Scheiß mittlerweile aufgegeben haben. Haben sie nicht…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

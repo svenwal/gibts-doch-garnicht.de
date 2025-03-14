@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/mac/</link>
+    <description>Recent content in Mac on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Tue, 22 Nov 2016 08:53:56 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bye bye Apple&amp;#8230;?</title>
+      <link>http://localhost:1313/bye-bye-apple/</link>
+      <pubDate>Tue, 22 Nov 2016 08:53:56 +0000</pubDate>
+      <guid>http://localhost:1313/bye-bye-apple/</guid>
+      <description>&lt;p&gt;Viel wurde die letzten Wochen geschrieben, dass Apple seine ursprünglichen Fans, welche die Firma groß gemacht haben, verliert.&lt;/p&gt;&#xA;&lt;p&gt;Ich zähle mich mal zu der Gruppe dieser Fanboys, so habe ich doch Macs seit dem legendären &lt;a href=&#34;https://en.wikipedia.org/wiki/IMac_G4&#34;&gt;iMac G4&lt;/a&gt; („Nachttischlampe“, für mich noch immer der schönste Rechner aller Zeiten) privat nur noch Rechner aus dem Hause Apple* besessen, bin seit dem alleresten &lt;a href=&#34;https://de.wikipedia.org/wiki/IPhone&#34;&gt;iPhone&lt;/a&gt; dabei, hatte unzählige &lt;a href=&#34;https://de.wikipedia.org/wiki/IPod&#34;&gt;iPods&lt;/a&gt;, das WLAN kommt hier aus zwei &lt;a href=&#34;https://de.wikipedia.org/wiki/Apple_AirPort&#34;&gt;AirPort&lt;/a&gt; Extreme, Ton auf die Anlage mittels AirPort Express und Bild auf dem Fernseher mittels Apple TV (2. Gen).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yosemite&amp;#8230;</title>
+      <link>http://localhost:1313/yosemite/</link>
+      <pubDate>Thu, 14 May 2015 14:31:31 +0000</pubDate>
+      <guid>http://localhost:1313/yosemite/</guid>
+      <description>&lt;p&gt;Yosemite ist einer von den Orten, zu welchem mich mein Drang in die Ferne sicher noch einmal führen wird. Ich mag ja raue und weite Natur und auf meiner Liste der zu bereisenden Ziele ist es recht weit oben.&lt;/p&gt;&#xA;&lt;p&gt;Aber wie sich einige wahrscheinlich eh schon gedacht haben, geht es um etwas anderes – nämlich Mac OS X 10.10 mit dem Namen Yosemite.&lt;/p&gt;&#xA;&lt;p&gt;Ich hatte es seit der ersten Beta auf meinem MacBook Pro und im Gegensatz zu vielen hat mich das Design nicht grundsätzlich abgeschreckt (über unnötige Transparenzen ärgere ich mich allerdings noch immer jeden Tag). Nun gut, ich habe meine Macs weder aus Prestigegründen noch wegen des Designs (letzteres schon etwas – die Benutzeroberfläche sollte nicht hässlich sein, aber bis auf Windows XP trifft das für meinen Geschmack auf die meisten zu). Nein, ich habe meine Macs wegen dem soliden UNIX-Unterbau und dem „it just works“. Ich habe das immer verteidigt und auch sonst das meiste vom Apfelladen im Haushalt in Betrieb.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

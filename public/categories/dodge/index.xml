@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dodge on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/dodge/</link>
+    <description>Recent content in Dodge on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Sat, 27 Feb 2016 10:33:34 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/dodge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>uConnect 8.4A(N)</title>
+      <link>http://localhost:1313/uconnect-8-4an/</link>
+      <pubDate>Sat, 27 Feb 2016 10:33:34 +0000</pubDate>
+      <guid>http://localhost:1313/uconnect-8-4an/</guid>
+      <description>&lt;p&gt;Ich schreibe hier zwar nur alle Jubeljahre (meist in kleineren Wellen) Einträge, aber beobachte in &lt;a href=&#34;http://piwik.org&#34;&gt;Piwik&lt;/a&gt; sehr gerne, welche Posts denn besonders beliebt sind. Offensichtlich gibt es momentan zwei Favoriten, welche für einen Großteil der Einträge hier im Blog sorgen.&lt;/p&gt;&#xA;&lt;p&gt;Auf Platz zwei findet sich jener, wie man eine &lt;a href=&#34;https://www.gibts-doch-garnicht.de/windows-xp-oem-lizenz-mit-einer-retail-cd-installieren-und-aktivieren/&#34;&gt;Windows-XP-Retail-DVD verwenden kann, um ein XP mit einem OEM Key zu installieren&lt;/a&gt;. Mal ernsthaft Leute, XP? Ich meine, der Rechner, auf dem ich das damals gemacht habe, existiert zwar noch (mit &lt;a href=&#34;https://elementary.io&#34;&gt;Elementary OS&lt;/a&gt; als Default-Boot), aber wir haben 2016!?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

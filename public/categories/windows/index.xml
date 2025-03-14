@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/windows/</link>
+    <description>Recent content in Windows on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Thu, 14 May 2015 14:31:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yosemite&amp;#8230;</title>
+      <link>http://localhost:1313/yosemite/</link>
+      <pubDate>Thu, 14 May 2015 14:31:31 +0000</pubDate>
+      <guid>http://localhost:1313/yosemite/</guid>
+      <description>&lt;p&gt;Yosemite ist einer von den Orten, zu welchem mich mein Drang in die Ferne sicher noch einmal führen wird. Ich mag ja raue und weite Natur und auf meiner Liste der zu bereisenden Ziele ist es recht weit oben.&lt;/p&gt;&#xA;&lt;p&gt;Aber wie sich einige wahrscheinlich eh schon gedacht haben, geht es um etwas anderes – nämlich Mac OS X 10.10 mit dem Namen Yosemite.&lt;/p&gt;&#xA;&lt;p&gt;Ich hatte es seit der ersten Beta auf meinem MacBook Pro und im Gegensatz zu vielen hat mich das Design nicht grundsätzlich abgeschreckt (über unnötige Transparenzen ärgere ich mich allerdings noch immer jeden Tag). Nun gut, ich habe meine Macs weder aus Prestigegründen noch wegen des Designs (letzteres schon etwas – die Benutzeroberfläche sollte nicht hässlich sein, aber bis auf Windows XP trifft das für meinen Geschmack auf die meisten zu). Nein, ich habe meine Macs wegen dem soliden UNIX-Unterbau und dem „it just works“. Ich habe das immer verteidigt und auch sonst das meiste vom Apfelladen im Haushalt in Betrieb.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Noch mehr Spaß mit Exim4 und GnuTLS unter Debian</title>
+      <link>http://localhost:1313/noch-mehr-spass-mit-exim4-und-gnutls-unter-debian/</link>
+      <pubDate>Sun, 25 Jan 2015 21:55:58 +0000</pubDate>
+      <guid>http://localhost:1313/noch-mehr-spass-mit-exim4-und-gnutls-unter-debian/</guid>
+      <description>&lt;p&gt;Ach was eine Freude – ich hatte am Wochenende viel Spaß dabei, ein eigentlich ganz nettes Windows Phone zu konfigurieren. Dass es bei verstelltem Datum bei allen Updates und Co. durchdreht sei hier mal nur erwähnt, aber das eingebaute Mailprogramm hat mir noch mehr graue Haare beschert.&lt;/p&gt;&#xA;&lt;p&gt;Nachdem alles richtig eingestellt war (tausendmal gegengecheckt mit Thunderbird) wollte es ums Verrecken nicht korrekt senden – die Meldung „relay not permitted“ flutete meine (seit Jahren stabile) Exim4-Konfiguration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wo soll das nur hinführen&amp;#8230;?</title>
+      <link>http://localhost:1313/wo-soll-das-nur-hinfuehren/</link>
+      <pubDate>Wed, 13 Nov 2013 20:11:15 +0000</pubDate>
+      <guid>http://localhost:1313/wo-soll-das-nur-hinfuehren/</guid>
+      <description>&lt;p&gt;Alle, die mich kennen, wissen, dass ich, was Computer betrifft, so ziemlich alles ausprobieren muss, was nicht bei drei auf den Bäumen ist. Und auch wenn seit nunmehr mehr als 10 Jahren meine Haupt-Privatrechner immer Macs waren (angefangen mit einem &lt;a href=&#34;http://en.wikipedia.org/wiki/IMac_G4&#34;&gt;iMac G4&lt;/a&gt; – was ein tolles Teil), so werden immer auch die anderen Systeme intensiv im Auge behalten. So probiere ich immer mal wieder das eine oder andere Linux (welches ich als Server schätze – auf dem Desktop weniger) und auch immer aktiv alle Windows-Versionen, für welche ich ja sogar &lt;a href=&#34;http://www.li-ghun.de/&#34;&gt;aktiv entwickle&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows XP OEM Lizenz mit einer Retail-CD installieren und aktivieren</title>
+      <link>http://localhost:1313/windows-xp-oem-lizenz-mit-einer-retail-cd-installieren-und-aktivieren/</link>
+      <pubDate>Mon, 03 Dec 2012 17:57:52 +0000</pubDate>
+      <guid>http://localhost:1313/windows-xp-oem-lizenz-mit-einer-retail-cd-installieren-und-aktivieren/</guid>
+      <description>&lt;p&gt;Nach dem ganzen &lt;a href=&#34;https://www.gibts-doch-garnicht.de/kleiner-ausflug-in-die-windows-holle/&#34; title=&#34;Kleiner Ausflug in die Windows-Hölle&#34;&gt;Mist mit dem missglückten Upgrade meiner Windows XP-Maschine auf Windows 8&lt;/a&gt; musste der XP-Rechner wieder neu aufgesetzt werden (und wird nun Age of Empires-Spielrechner und Entwicklungs-Testsystem).&lt;/p&gt;&#xA;&lt;p&gt;Problem dabei: Die Kiste ist ein HP mit einem hübschen Windows-XP-Lizenzaufkleber (OEM-Lizenz), als CD habe ich aber nur eine normale Verkaufsversion („Retail“) von Windows XP zur Verfügung. Und wenn man mit der installiert, dann wird der Lizenzcode als nicht gültig zurückgewiesen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deswegen ein Mac!</title>
+      <link>http://localhost:1313/deswegen-ein-mac/</link>
+      <pubDate>Tue, 27 Nov 2012 19:47:28 +0000</pubDate>
+      <guid>http://localhost:1313/deswegen-ein-mac/</guid>
+      <description>&lt;p&gt;Jemand &lt;a href=&#34;https://www.gibts-doch-garnicht.de/kleiner-ausflug-in-die-windows-holle/&#34; title=&#34;Kleiner Ausflug in die Windows-Hölle&#34;&gt;den Eintrag vom Wochenende&lt;/a&gt; gelesen? Der mit dem vergeblichen Versuch, ein Windows 8 und dann wieder ein XP zu installieren? Nun, ein laufendes Windows 8 habe ich jetzt (auf einem anderen Rechner), aber die Lust darauf ist erstmal wieder verflogen.&lt;/p&gt;&#xA;&lt;p&gt;Stattdessen habe ich mich wieder meinen Macs zugewendet (die ja eh meine Hauptrechner sind) und habe einen größeren Umbau in Angriff genommen. Ziel war Folgendes: das MacBook Pro 13″ (early 2011) sollte umgebaut werden (vorher: SSD und Festplatte beide eingebaut aber getrennte Laufwerke, nachher: SSD und Festplatte mittels &lt;a href=&#34;http://de.wikipedia.org/wiki/Fusiondrive&#34;&gt;Fusion Drive&lt;/a&gt; ein Laufwerk (&lt;a href=&#34;http://www.petralli.net/2012/10/analyzing-apples-fusion-drive-in-an-attempt-to-retrofit-an-existing-macs-with-an-ssd-and-a-traditional-hard-disk/&#34;&gt;Anleitung hier&lt;/a&gt;)).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kleiner Ausflug in die Windows-Hölle</title>
+      <link>http://localhost:1313/kleiner-ausflug-in-die-windows-holle/</link>
+      <pubDate>Sun, 25 Nov 2012 14:01:40 +0000</pubDate>
+      <guid>http://localhost:1313/kleiner-ausflug-in-die-windows-holle/</guid>
+      <description>&lt;p&gt;So kann man sich einen Sonntag auch versauen – man kaufe sich auf seinem Entwicklungs-Windows-XP-Rechner Windows 8 Pro als Update. Das Setup läuft durch, ohne wie sonst überall zu lesen die Erstellung einer DVD oder eines Boot-Sticks anzubieten. Na toll.&lt;/p&gt;&#xA;&lt;p&gt;Rechner startet also neu und fährt nicht mehr hoch (sondern schwarzer Bildschirm mit lustigen Zahlen). Ist also hinüber. Klasse.&lt;/p&gt;&#xA;&lt;p&gt;Also buddelt man die alte XP Install DVD raus und installiert – und dann geht die alte XP-Seriennummer nicht mehr (jene, die auf dem Rechner klebt) und auch eine andere noch vorhandene geht nicht mehr.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

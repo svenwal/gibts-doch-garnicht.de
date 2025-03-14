@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Sat, 27 Feb 2016 11:49:41 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kindersicherung für das Internet mit dem Raspberry Pi</title>
+      <link>http://localhost:1313/kindersicherung-fuer-das-internet-mit-dem-raspberry-pi/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/kindersicherung-fuer-das-internet-mit-dem-raspberry-pi/</guid>
+      <description>&lt;p&gt;Jeder, der Kinder hat, sollte sich ab einem bestimmten Alter ernsthaft Gedanken machen, wie man diese vor den negativen Seiten des Internets so gut wie möglich schützen kann, ohne gleich das moderne Teufelszeug komplett zu verbieten. Dazu aber vorab: es muss einem klar sein, dass man es am Ende nur erschweren kann. Jedes halbwegs pfiffige Kind findet Wege, um auf das Netz zuzugreifen – und sei es nur, in dem es einfach zu einem/r Freund(in) geht, wo das WLAN offen ist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yosemite&amp;#8230;</title>
+      <link>http://localhost:1313/yosemite/</link>
+      <pubDate>Thu, 14 May 2015 14:31:31 +0000</pubDate>
+      <guid>http://localhost:1313/yosemite/</guid>
+      <description>&lt;p&gt;Yosemite ist einer von den Orten, zu welchem mich mein Drang in die Ferne sicher noch einmal führen wird. Ich mag ja raue und weite Natur und auf meiner Liste der zu bereisenden Ziele ist es recht weit oben.&lt;/p&gt;&#xA;&lt;p&gt;Aber wie sich einige wahrscheinlich eh schon gedacht haben, geht es um etwas anderes – nämlich Mac OS X 10.10 mit dem Namen Yosemite.&lt;/p&gt;&#xA;&lt;p&gt;Ich hatte es seit der ersten Beta auf meinem MacBook Pro und im Gegensatz zu vielen hat mich das Design nicht grundsätzlich abgeschreckt (über unnötige Transparenzen ärgere ich mich allerdings noch immer jeden Tag). Nun gut, ich habe meine Macs weder aus Prestigegründen noch wegen des Designs (letzteres schon etwas – die Benutzeroberfläche sollte nicht hässlich sein, aber bis auf Windows XP trifft das für meinen Geschmack auf die meisten zu). Nein, ich habe meine Macs wegen dem soliden UNIX-Unterbau und dem „it just works“. Ich habe das immer verteidigt und auch sonst das meiste vom Apfelladen im Haushalt in Betrieb.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camping- / WLAN- / Hotel-Internet teilen</title>
+      <link>http://localhost:1313/camping-wlan-hotel-internet-teilen/</link>
+      <pubDate>Sun, 16 Mar 2014 21:13:28 +0000</pubDate>
+      <guid>http://localhost:1313/camping-wlan-hotel-internet-teilen/</guid>
+      <description>&lt;p&gt;Das hier wird ein noch wachsender Eintrag rund um mein Setup, welches ich nutzen werde, um z.B. auf Campingplätzen deren WLAN auf alle unsere Geräte zu verteilen ohne dass diese neu konfiguriert werden sollen.&lt;/p&gt;&#xA;&lt;p&gt;Im Wohnwagen soll es konstant immer ein WLAN geben („MEIN_WLAN“), welches von allen Clients verwendet wird. Für den Aufbau verwende ich einen Raspberry Pi (mit Raspian bzw. Raspbmc), eine kleine WLAN-Karte, ein simples CAT 5 Kabel und eine ausgemusterte Speedport 500V (welche ich im Keller gefunden habe).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

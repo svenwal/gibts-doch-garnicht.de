@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on Gibt&#39;s doch gar nicht</title>
+    <link>http://localhost:1313/categories/debian/</link>
+    <description>Recent content in Debian on Gibt&#39;s doch gar nicht</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Sven Walther</copyright>
+    <lastBuildDate>Sat, 27 Feb 2016 11:49:41 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kindersicherung für das Internet mit dem Raspberry Pi</title>
+      <link>http://localhost:1313/kindersicherung-fuer-das-internet-mit-dem-raspberry-pi/</link>
+      <pubDate>Sat, 27 Feb 2016 11:49:41 +0000</pubDate>
+      <guid>http://localhost:1313/kindersicherung-fuer-das-internet-mit-dem-raspberry-pi/</guid>
+      <description>&lt;p&gt;Jeder, der Kinder hat, sollte sich ab einem bestimmten Alter ernsthaft Gedanken machen, wie man diese vor den negativen Seiten des Internets so gut wie möglich schützen kann, ohne gleich das moderne Teufelszeug komplett zu verbieten. Dazu aber vorab: es muss einem klar sein, dass man es am Ende nur erschweren kann. Jedes halbwegs pfiffige Kind findet Wege, um auf das Netz zuzugreifen – und sei es nur, in dem es einfach zu einem/r Freund(in) geht, wo das WLAN offen ist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IPv6 bei manitu und netcup</title>
+      <link>http://localhost:1313/ipv6-bei-manitu-und-netcup/</link>
+      <pubDate>Sun, 11 Oct 2015 11:45:02 +0000</pubDate>
+      <guid>http://localhost:1313/ipv6-bei-manitu-und-netcup/</guid>
+      <description>&lt;p&gt;Ich fahre schon eine ganze Weile meinen Hauptserver bei &lt;a href=&#34;https://www.manitu.de/&#34;&gt;manitu&lt;/a&gt; und mein Backupserver ist aktuell bei &lt;a href=&#34;https://www.netcup.de/&#34;&gt;netcup&lt;/a&gt; (u. a. die Verfügbarkeit von &lt;a href=&#34;https://de.wikipedia.org/wiki/IPv6&#34;&gt;IPv6&lt;/a&gt; ließ mich damals wechseln). Also (fast) alle Dienste laufen auf manitu und die Konfiguration wird täglich als Sicherung zu meinem netcup-Server übertragen (welcher aber nebenher auch 2 oder 3 Dienste bereitstellt, welche aus diversen Gründen nicht bei manitu liegen – meist wollte ich den Hauptserver nicht zu sehr in die Schusslinie bringen).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Von Apache zu nginx mit IPv6 und SSL</title>
+      <link>http://localhost:1313/von-apache-zu-nginx-mit-ipv6-und-ssl/</link>
+      <pubDate>Sun, 11 Oct 2015 11:05:01 +0000</pubDate>
+      <guid>http://localhost:1313/von-apache-zu-nginx-mit-ipv6-und-ssl/</guid>
+      <description>&lt;p&gt;Seit ewigen Zeiten (irgendwas größer 15 Jahre) laufen alle meine Webseiten auf &lt;a href=&#34;https://httpd.apache.org/&#34;&gt;Apache&lt;/a&gt;. Zu seiner Zeit war Apache die einzige wirkliche Wahl und die Gewohnheit siegt. Mit &lt;a href=&#34;https://www.debian.org/&#34;&gt;Debian 8&lt;/a&gt; steht nun für mich ein Update auf der ToDo-Liste, welches einige Änderungen an der Konfiguration nach sich ziehen würde (es ist eine lang gewachsene Konfiguration) und so fand ich, es wäre mal wieder Zeit etwas neues zu lernen.&lt;/p&gt;&#xA;&lt;p&gt;Daher startete ich ein Migrationsprojekt mit folgenden Zielen:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yosemite&amp;#8230;</title>
+      <link>http://localhost:1313/yosemite/</link>
+      <pubDate>Thu, 14 May 2015 14:31:31 +0000</pubDate>
+      <guid>http://localhost:1313/yosemite/</guid>
+      <description>&lt;p&gt;Yosemite ist einer von den Orten, zu welchem mich mein Drang in die Ferne sicher noch einmal führen wird. Ich mag ja raue und weite Natur und auf meiner Liste der zu bereisenden Ziele ist es recht weit oben.&lt;/p&gt;&#xA;&lt;p&gt;Aber wie sich einige wahrscheinlich eh schon gedacht haben, geht es um etwas anderes – nämlich Mac OS X 10.10 mit dem Namen Yosemite.&lt;/p&gt;&#xA;&lt;p&gt;Ich hatte es seit der ersten Beta auf meinem MacBook Pro und im Gegensatz zu vielen hat mich das Design nicht grundsätzlich abgeschreckt (über unnötige Transparenzen ärgere ich mich allerdings noch immer jeden Tag). Nun gut, ich habe meine Macs weder aus Prestigegründen noch wegen des Designs (letzteres schon etwas – die Benutzeroberfläche sollte nicht hässlich sein, aber bis auf Windows XP trifft das für meinen Geschmack auf die meisten zu). Nein, ich habe meine Macs wegen dem soliden UNIX-Unterbau und dem „it just works“. Ich habe das immer verteidigt und auch sonst das meiste vom Apfelladen im Haushalt in Betrieb.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Noch mehr Spaß mit Exim4 und GnuTLS unter Debian</title>
+      <link>http://localhost:1313/noch-mehr-spass-mit-exim4-und-gnutls-unter-debian/</link>
+      <pubDate>Sun, 25 Jan 2015 21:55:58 +0000</pubDate>
+      <guid>http://localhost:1313/noch-mehr-spass-mit-exim4-und-gnutls-unter-debian/</guid>
+      <description>&lt;p&gt;Ach was eine Freude – ich hatte am Wochenende viel Spaß dabei, ein eigentlich ganz nettes Windows Phone zu konfigurieren. Dass es bei verstelltem Datum bei allen Updates und Co. durchdreht sei hier mal nur erwähnt, aber das eingebaute Mailprogramm hat mir noch mehr graue Haare beschert.&lt;/p&gt;&#xA;&lt;p&gt;Nachdem alles richtig eingestellt war (tausendmal gegengecheckt mit Thunderbird) wollte es ums Verrecken nicht korrekt senden – die Meldung „relay not permitted“ flutete meine (seit Jahren stabile) Exim4-Konfiguration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tunnel in die Freiheit</title>
+      <link>http://localhost:1313/tunnel-in-die-freiheit/</link>
+      <pubDate>Tue, 08 Apr 2014 21:59:52 +0000</pubDate>
+      <guid>http://localhost:1313/tunnel-in-die-freiheit/</guid>
+      <description>&lt;p&gt;Ausgehend vom &lt;a href=&#34;https://www.gibts-doch-garnicht.de/camping-wlan-hotel-internet-teilen/&#34; title=&#34;Camping- / WLAN- / Hotel-Internet teilen&#34;&gt;letzten Eintrag für meine Hotel/Camping-WLAN-Konfiguration&lt;/a&gt; kam auch eine Frage zum Thema „wie tunnele ich meine Netzverkehr durch die Firewall?“. Und da verwende ich seit Jahren ein schon so ziemlich überall erfolgreich verwendetes Setup, welches ich nun mal beschreiben möchte.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vorab&lt;/strong&gt;: Etwas technisch Know-how sollte vorhanden sein, denn die verwendeten Technologien sind nicht wirklich immer einfaches Plug&amp;amp;Play.&lt;/p&gt;&#xA;&lt;p&gt;Die &lt;strong&gt;Grundidee&lt;/strong&gt; ist wie folgt: Auf einem Server (Rootserver oder vServer) installieren wir SSH und einen Proxy und schicken den Datenverkehr durch den SSH-Zugang zum Proxy, der es dann weiter ins Internet schickt. Der Gag dabei: SSH läuft nicht (bzw. nicht nur) auf Port 22, sondern auf Port 443, welcher normalerweise für HTTPS verwendet wird und daher von Firewalls nahezu immer erreichbar ist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camping- / WLAN- / Hotel-Internet teilen</title>
+      <link>http://localhost:1313/camping-wlan-hotel-internet-teilen/</link>
+      <pubDate>Sun, 16 Mar 2014 21:13:28 +0000</pubDate>
+      <guid>http://localhost:1313/camping-wlan-hotel-internet-teilen/</guid>
+      <description>&lt;p&gt;Das hier wird ein noch wachsender Eintrag rund um mein Setup, welches ich nutzen werde, um z.B. auf Campingplätzen deren WLAN auf alle unsere Geräte zu verteilen ohne dass diese neu konfiguriert werden sollen.&lt;/p&gt;&#xA;&lt;p&gt;Im Wohnwagen soll es konstant immer ein WLAN geben („MEIN_WLAN“), welches von allen Clients verwendet wird. Für den Aufbau verwende ich einen Raspberry Pi (mit Raspian bzw. Raspbmc), eine kleine WLAN-Karte, ein simples CAT 5 Kabel und eine ausgemusterte Speedport 500V (welche ich im Keller gefunden habe).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>E-Mail Made in Germany und der Standard-Mailserver von Debian (Exim)</title>
+      <link>http://localhost:1313/e-mail-made-in-germany-und-der-standard-mailserver-von-debian-exim/</link>
+      <pubDate>Sun, 01 Sep 2013 19:50:53 +0000</pubDate>
+      <guid>http://localhost:1313/e-mail-made-in-germany-und-der-standard-mailserver-von-debian-exim/</guid>
+      <description>&lt;p&gt;Na wunderbar, da haben also &lt;a href=&#34;http://www.e-mail-made-in-germany.de/&#34;&gt;unsere großen drei E-Mail-Provider GMX, web.de und Telekom endlich mal den Konfigurationsschalter gefunden&lt;/a&gt;, um die Verbindung (&lt;a href=&#34;https://netzpolitik.org/2013/e-mail-made-in-germany-deutsche-telekom-web-de-und-gmx-machen-ssl-an-und-verkaufen-das-als-sicher/&#34;&gt;und auch nur die, nicht etwa die Mails selber…)&lt;/a&gt; der Mailserver zu verschlüsseln – und dann funktioniert das Ganze wohl bei vielen Standard-Debian-Mailservern nicht.&lt;/p&gt;&#xA;&lt;p&gt;Der Grund scheint zu sein, dass Debian &lt;a href=&#34;https://people.gnome.org/~markmc/openssl-and-the-gpl.html&#34;&gt;wegen der Lizenz (GPL)&lt;/a&gt; nicht &lt;a href=&#34;https://www.openssl.org/&#34;&gt;OpenSSL&lt;/a&gt; sondern &lt;a href=&#34;http://www.gnutls.org/&#34;&gt;GnuTLS&lt;/a&gt; einsetzt – und dann bekommt man als Betreiber eines solchen Mailservers dann solche Einträge im Logfile:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

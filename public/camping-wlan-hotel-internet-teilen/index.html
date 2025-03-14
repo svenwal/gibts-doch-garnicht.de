@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Camping- / WLAN- / Hotel-Internet teilen :: Gibt&#39;s doch gar nicht</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Das hier wird ein noch wachsender Eintrag rund um mein Setup, welches ich nutzen werde, um z.B. auf Campingplätzen deren WLAN auf alle unsere Geräte zu verteilen ohne dass diese neu konfiguriert werden sollen.
+Im Wohnwagen soll es konstant immer ein WLAN geben („MEIN_WLAN“), welches von allen Clients verwendet wird. Für den Aufbau verwende ich einen Raspberry Pi (mit Raspian bzw. Raspbmc), eine kleine WLAN-Karte, ein simples CAT 5 Kabel und eine ausgemusterte Speedport 500V (welche ich im Keller gefunden habe).
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/camping-wlan-hotel-internet-teilen/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.15870410d15d02abd22fb5ef00996f65a00d04b3a7435e9f83831c7c2298de88.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="sven" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Camping- / WLAN- / Hotel-Internet teilen">
+<meta property="og:description" content="Das hier wird ein noch wachsender Eintrag rund um mein Setup, welches ich nutzen werde, um z.B. auf Campingplätzen deren WLAN auf alle unsere Geräte zu verteilen ohne dass diese neu konfiguriert werden sollen.
+Im Wohnwagen soll es konstant immer ein WLAN geben („MEIN_WLAN“), welches von allen Clients verwendet wird. Für den Aufbau verwende ich einen Raspberry Pi (mit Raspian bzw. Raspbmc), eine kleine WLAN-Karte, ein simples CAT 5 Kabel und eine ausgemusterte Speedport 500V (welche ich im Keller gefunden habe).
+" />
+<meta property="og:url" content="http://localhost:1313/camping-wlan-hotel-internet-teilen/" />
+<meta property="og:site_name" content="Gibt&#39;s doch gar nicht" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="Debian" />
+
+  <meta property="article:section" content="Raspberry Pi" />
+
+
+  <meta property="article:published_time" content="2014-03-16 21:13:28 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container full">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Gibt&#39;s doch gar nicht
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/gar-nicht-oder-garnicht">Gar nicht oder garnicht</a></li>
+        
+      
+        
+          <li><a href="/impressum">Impressum</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/gar-nicht-oder-garnicht" >Gar nicht oder garnicht</a></li>
+        
+      
+        
+          <li><a href="/impressum" >Impressum</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/camping-wlan-hotel-internet-teilen/">Camping- / WLAN- / Hotel-Internet teilen</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2014-03-16</time><span class="post-author">sven</span><span class="post-reading-time">4 min read (713 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Das hier wird ein noch wachsender Eintrag rund um mein Setup, welches ich nutzen werde, um z.B. auf Campingplätzen deren WLAN auf alle unsere Geräte zu verteilen ohne dass diese neu konfiguriert werden sollen.</p>
+<p>Im Wohnwagen soll es konstant immer ein WLAN geben („MEIN_WLAN“), welches von allen Clients verwendet wird. Für den Aufbau verwende ich einen Raspberry Pi (mit Raspian bzw. Raspbmc), eine kleine WLAN-Karte, ein simples CAT 5 Kabel und eine ausgemusterte Speedport 500V (welche ich im Keller gefunden habe).</p>
+<p>Schritt 1: Raspberry Pi Grundinstallation (WLAN noch nicht gesteckt – Internet per LAN-Kabel)</p>
+<p>Installation geht wirklich leicht von der Hand – <a href="http://www.raspbmc.com/download/">System herunterladen und den Anweisungen dort folgen</a></p>
+<p>Schritt 2: Wichtige Anpassungen</p>
+<p>Ziemlich genervt musste ich erstmal mit der englischen Tastaturbelegung in der Konsole kämpfen – diese stellt man wie <a href="http://sparky0815.de/2012/06/raspberry-pi-erste-schritte-debian/">auf dieser Seite</a> beschrieben erstmal auf deutsch um – dann klappt es auch mit z,y,-,…</p>
+<p>Schritt 3: Raspberry Pi wird Access Point</p>
+<p>Im Gegensatz zum häufigeren Fall wollen wir, dass unser Raspberry Pi ein eigenes WLAN (eben das „MEIN_WLAN“) aufmacht – dazu folge man einfach <a href="http://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software">dieser Anleitung</a>. Wenn alles klappt, müsste danach auf Euren Rechnern ein „MEIN_WLAN“ als Verbindung verfügbar sein – und wenn der Raspberry Pi noch am WLAN hängt (was er sollte), dann kann man über das selbst erstellte WLAN schon surfen.</p>
+<p>Schritt 4: (optional) Einen eigenen Nameserver aufsetzen</p>
+<p>Ich will in meinem internen Netz alle Rechner immer unter einem Namen ansprechen – daher habe ich <a href="http://www.ducky-pond.com/posts/2013/Oct/how-to-setup-a-dns-server-with-powerdns-on-raspberry-pi/">gemäß dieser Anleitung PowerDNS installiert</a> (bisher hatte ich immer Bind im Einsatz – aber das große Monster wollte ich dann doch nicht auf dem kleinen Pi haben).</p>
+<p>Schritt 5: Schluss mit dem vorhandenen LAN</p>
+<p>Der Raspberry Pi ist soweit eigentlich fertig – nun verheb ich auf der LAN-Schnittstelle via /etc/network/interfaces eine feste IP-Adresse in einem anderen Netzwerk als jenes des WLAN (sagen wir WLAN hat 192.168.1.xxx, so setze ich eth0 auf 192.168.2.1</p>
+<p>Dann stelle ich noch ein, dass alle Verbindungen, welche nicht im WLAN laufen sollen, über eth0 und dort über die Adresse 192.168.2.2 gehen sollen (nein, Ihr habt nichts verpasst – das ist eine noch nicht belegte…)</p>
+<blockquote>
+<p>route add 192.168.2.0 eth0<br>
+route add default gw 192.168.2.2</p></blockquote>
+<p>Schritt 6: Die Speedport 500V wird zum Bitswitcher</p>
+<p>Wir wollen, dass unser WLAN-Router nicht mehr ein WLAN aufspannt, sondern als Client an einem solchen teilnimmt. Das geht wohl ganz gut mit DD-WRT (dafür hatte ich die Hardware nicht da), auch Fritz!Boxen kriegt man wohl leicht dazu – ich aber hatte wie gesagt im Keller „nur“ die olle Speedport 500V gefunden.</p>
+<p>Deren Telekom-Firmware kann den Client-Mode (natürlich) nicht, es gibt aber eine alternative Firmware namens „<a href="http://bitswitcher.sourceforge.net/">Bitswitcher</a>“ – und die habe ich darauf installiert.</p>
+<p>Schritt 7: Das LAN der Speedport umstellen</p>
+<p>Wenn man sich über das Default-WLAN von Bitswitcher dort anmeldet, kann man dort das LAN umstellen – wir nehmen dort eine feste IP (192.186.2.2 – ja, die von vorhin) und wenn wir alles richtig gemacht haben (manchmal mag Bitswitcher einen Reboot), dann sollten wir vom Raspberry Pi (den wir ja im WLAN „MEIN_WLAN“ erreichen können) bei gestecktem Kabel von LAN zu LAN ein ping gehen.</p>
+<p>Schritt 8: Speedport mit einem fremden WLAN verbinden</p>
+<p>Das Verbinden mit einem fremden WLAN benötigt insgesamt drei Einstellungen – auch hier hilft manchmal neben dem „Save &amp; Run“ ein beherzter Neustart via Aus-Schalter weiter):</p>
+<ol>
+<li>Unter „Wireless LAN“ -&gt; „Basic Settings“ tragen wir als Mode „Client“ ein – und die Daten des zu verbundenen WLANs (Name, Kanal) und stellen auf „separate“ und schalten das DHCP dort an</li>
+<li>Unter „Wireless LAN“ -&gt; „Security Settings“ tragen wir die Art der Verschlüsselung und das Passwort ein</li>
+<li>Und das ist wichtig – muss aber nur einmal gemacht werden: Unter „Firewall“ schalten wir im Bereich „General Settings“ das WAN Interface auf „WLAN“ (damit dort die Weiterleitung auch klappt.</li>
+</ol>
+<p>Erste Zusammenfassung: mit dem Setup schalte ich nun beide Geräte ein, rufe die IP-Adresse meines Speedport auf (bzw. habe ich im DNS einen entsprechenden DNS hinterlegt) und trage wie in Punkt 8 beschrieben die Daten des WLAN des Hotels, Campingplatzes usw. ein und alle Geräte sind glücklich.</p>
+<p>Dieser Eintrag wurde in solch einer Konfiguration geschrieben 🙂</p>
+<p><strong>UPDATE:</strong> Auch wenn all das da oben funktioniert wie beschrieben – mittlerweile nutze ich einen <a href="http://www.amazon.de/gp/product/B007W7UJTQ?ie=UTF8&amp;camp=1638&amp;creativeASIN=B007W7UJTQ&amp;linkCode=xm2&amp;tag=hundewissende0c">TP-Link TL-MR-3040</a> – dieser bietet mit der aktuellsten Firma im sogenannten WISP-Modus faktisch all das Out of the Box 🙂</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h"></span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/tunnel-in-die-freiheit/" class="button inline prev">
+        &lt; [<span class="button__text">Tunnel in die Freiheit</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/was-hat-die-steinlaus-mit-podcasts-und-der-wikipedia-zu-tun/" class="button inline next">
+         [<span class="button__text">Was hat die Steinlaus mit Podcasts und der Wikipedia zu tun&amp;#8230;?</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Sven Walther</span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
